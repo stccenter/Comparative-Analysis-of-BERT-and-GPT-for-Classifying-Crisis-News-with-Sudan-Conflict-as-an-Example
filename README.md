@@ -1,12 +1,10 @@
-# Comparative Analysis of BERT and GPT for Conflict-Related Multiclass Label Classification from Multi-Label Ground Truth 🚀
+# Comparative Analysis of BERT and GPT for Classifying Conflict News with Sudan Conflict as an Example 🚀
 
 <p align="center">
   📄 <a href="xxx" target="_blank">Paper</a> &nbsp;  &nbsp;
 </p>
 
-
-<p align="center"> <img src="./images/ClassificationWorkflow.png" style="width: 85%;" id="title-icon">       </p>
-
+<p align="center"> <img src="./images/ClassificationWorkflow.png" style="width: 85%;" id="title-icon"> </p>
 
 ## Updates
 
@@ -18,35 +16,31 @@
 - [License](#license) 📜
 - [Citation](#citation) 🔖
 
-
-
 ## Overview 
-This study compares Multi-Label Classification (MLC) and a novel Single-Label Classification from Multi-Label Ground Truth (SL-MLG) approach for conflict-related news articles using BERT and GPT-based large language models (LLMs). We compare:
+This project compares Multi-Label Classification (MLC) and Single-Label Classification from Multi-Label Ground Truth (SL-MLG) for conflict-related news using BERT and GPT-based large language models (LLMs). The evaluation includes:
 
-- Traditional supervised fine-tuned BERT models vs.
-- Zero-shot, Retrieval-Augmented Generation (RAG), and RAG with in-context learning (ICL) GPT approaches.
-
-
+- Fine-tuned BERT models (standard and hyperparameter-tuned)
+- GPT models using Zero-shot, Retrieval-Augmented Generation (RAG), and RAG with In-Context Learning (ICL)
 
 ## Key Results  
 ### **MLC Collective Experimental Results**
-| Algorithm  | Model            | Runtime   | F1-score  |
-|-----------|-----------------|-----------|-----------|
-| **RAG ICL** | Llama3.1-70b     | 3m 30s    | 0.669989  |
-| **RAG**     | Llama3.1-70b     | 2m 30s    | **0.687929** |
-| **Zero-Shot** | Llama3.3-70b  | 1m 31s    | 0.62751938 |
-| **BERT hp-tuned** | bert-base-uncased  | 187m 45s  | 0.630096125 |
-| **BERT** | bert-base-uncased  | 9m 43s    | 0.628465572 |
+| Algorithm       | Model            | Runtime   | F1-score |
+|----------------|------------------|-----------|----------|
+| **RAG ICL**     | Llama3.1-70b     | 3m 30s    | 67.00%   |
+| **RAG**         | Llama3.1-70b     | 2m 30s    | **68.80%** |
+| **Zero-Shot**   | Llama3.3-70b     | 1m 31s    | 62.75%   |
+| **BERT (tuned)**| bert-base-uncased| 187m 45s  | 63.01%   |
+| **BERT**        | bert-base-uncased| 9m 43s    | 62.85%   |
 
 ### **SL-MLG Collective Experimental Results**
-| Algorithm  | Model            | Runtime   | Accuracy  |
-|-----------|-----------------|-----------|-----------|
-| **RAG ICL** | Llama3.3-70b     | 3m 12s    | **0.906977** |
-| **RAG ICL** | Llama3.1-70b     | 3m 14s    | **0.906977** |
-| **RAG**     | Llama3.3-70b     | 1m 44s    | 0.860465  |
-| **Zero-Shot** | Llama3.3-70b  | 40s       | 0.76744186 |
-| **BERT hp-tuned** | bert-base-uncased  | 145m 18s  | 0.744186047 |
-| **BERT** | bert-base-uncased  | 9min 39s  | 0.7674418604651163 |
+| Algorithm       | Model            | Runtime   | Accuracy |
+|----------------|------------------|-----------|----------|
+| **RAG ICL**     | Llama3.3-70b     | 3m 12s    | **90.70%** |
+| **RAG ICL**     | Llama3.1-70b     | 3m 14s    | **90.70%** |
+| **RAG**         | Llama3.3-70b     | 1m 44s    | 86.05%   |
+| **Zero-Shot**   | Llama3.3-70b     | 40s       | 76.74%   |
+| **BERT (tuned)**| bert-base-uncased| 145m 18s  | 74.42%   |
+| **BERT**        | bert-base-uncased| 9m 39s    | 76.74%   |
 
 
 ## Model Zoo 
