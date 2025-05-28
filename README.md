@@ -1,4 +1,4 @@
-# Comparative Analysis of BERT and GPT for Classifying Conflict News with Sudan Conflict as an Example 🚀
+# Comparative Analysis of BERT and GPT for Classifying Crisis News with Sudan Conflict as an Example 🚀
 
 <p align="center">
   📄 <a href="xxx" target="_blank">Paper</a> &nbsp;  &nbsp;
