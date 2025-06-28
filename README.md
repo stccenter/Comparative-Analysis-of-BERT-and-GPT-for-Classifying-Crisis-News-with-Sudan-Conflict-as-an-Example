@@ -4,7 +4,7 @@
   📄 <a href="xxx" target="_blank">Paper</a> &nbsp;  &nbsp;
 </p>
 
-<p align="center"> <img src="./images/ClassificationWorkflow.png" style="width: 85%;" id="title-icon"> </p>
+<p align="center"> <img src="./ClassificationWorkflow.png" style="width: 85%;" id="title-icon"> </p>
 
 ## Updates
 
