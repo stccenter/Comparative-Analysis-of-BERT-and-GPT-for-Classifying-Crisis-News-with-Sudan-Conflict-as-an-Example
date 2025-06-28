@@ -128,10 +128,11 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 
 ```
 @article{Wang2025gptbert,
-  title     = {Comparative Analysis of BERT and GPT for Conflict-Related Multiclass Label Classification from Multi-Label Ground Truth},
+  title     = {Comparative Analysis of BERT and GPT for Classifying Crisis News with Sudan Conflict as an Example},
   author    = {Zifu Wang and Yahya Masri and Anusha Srirenganathan Malarvizhi and et al.},
+  journal   = {Algorithms},
   year      = {2025},
-  note      = {Manuscript in preparation, not yet submitted}
+  doi       = {}
 }
 ```
 
