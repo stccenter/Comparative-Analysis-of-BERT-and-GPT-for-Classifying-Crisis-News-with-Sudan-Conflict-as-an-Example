@@ -44,7 +44,7 @@ This project compares Multi-Label Classification (MLC) and Single-Label Classifi
 | **Zero-Shot**   | Llama3.3-70b      | 40s       | 76.74%     |
 | **BERT (tuned)**| bert-base-uncased | 145m 18s  | 74.42%     |
 | **BERT (tuned)**| bert-large-uncased| 1243m 28s | 83.72%     |
-| **BERT**        | bert-base-uncased | 9m 39s    | 76.74%     |
+| **BERT**        | bert-base-uncased | 10m 5s    | 76.74%     |
 | **BERT**        | bert-large-uncased| 28m 31s   | 74.42%     |
 
 
