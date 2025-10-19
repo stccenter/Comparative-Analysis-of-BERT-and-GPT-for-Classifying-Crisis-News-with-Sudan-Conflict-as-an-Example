@@ -4,7 +4,7 @@
   📄 <a href="xxx" target="_blank">Paper</a> &nbsp;  &nbsp;
 </p>
 
-<p align="center"> <img src="./images/ClassificationWorkflow.png" style="width: 85%;" id="title-icon"> </p>
+<p align="center"> <img src="./ClassificationWorkflow.png" style="width: 85%;" id="title-icon"> </p>
 
 ## Updates
 
@@ -24,30 +24,35 @@ This project compares Multi-Label Classification (MLC) and Single-Label Classifi
 
 ## Key Results  
 ### **MLC Collective Experimental Results**
-| Algorithm       | Model            | Runtime   | F1-score |
-|----------------|------------------|-----------|----------|
-| **RAG ICL**     | Llama3.1-70b     | 3m 30s    | 67.00%   |
-| **RAG**         | Llama3.1-70b     | 2m 30s    | **68.80%** |
-| **Zero-Shot**   | Llama3.3-70b     | 1m 31s    | 62.75%   |
-| **BERT (tuned)**| bert-base-uncased| 187m 45s  | 63.01%   |
-| **BERT**        | bert-base-uncased| 9m 43s    | 62.85%   |
+| Algorithm       | Model             | Runtime   | F1-score   |
+|-----------------|-------------------|-----------|------------|
+| **RAG ICL**     | Llama3.1-70b      | 3m 30s    | 67.00%     |
+| **RAG**         | Llama3.1-70b      | 2m 30s    | 68.80%     |
+| **Zero-Shot**   | Llama3.3-70b      | 1m 31s    | 62.75%     |
+| **BERT (tuned)**| bert-base-uncased | 187m 45s  | 63.01%     |
+| **BERT (tuned)**| bert-large-uncased| 1350m 55s | **68.90%** |
+| **BERT**        | bert-base-uncased | 9m 43s    | 62.85%     |
+| **BERT**        | bert-large-uncased| 14m 55s   | 54.62%     |
+
 
 ### **SL-MLG Collective Experimental Results**
-| Algorithm       | Model            | Runtime   | Accuracy |
-|----------------|------------------|-----------|----------|
-| **RAG ICL**     | Llama3.3-70b     | 3m 12s    | **90.70%** |
-| **RAG ICL**     | Llama3.1-70b     | 3m 14s    | **90.70%** |
-| **RAG**         | Llama3.3-70b     | 1m 44s    | 86.05%   |
-| **Zero-Shot**   | Llama3.3-70b     | 40s       | 76.74%   |
-| **BERT (tuned)**| bert-base-uncased| 145m 18s  | 74.42%   |
-| **BERT**        | bert-base-uncased| 9m 39s    | 76.74%   |
+| Algorithm       | Model             | Runtime   | Accuracy   |
+|-----------------|-------------------|-----------|------------|
+| **RAG ICL**     | Llama3.3-70b      | 3m 12s    | **90.70%** |
+| **RAG ICL**     | Llama3.1-70b      | 3m 14s    | **90.70%** |
+| **RAG**         | Llama3.3-70b      | 1m 44s    | 86.05%     |
+| **Zero-Shot**   | Llama3.3-70b      | 40s       | 76.74%     |
+| **BERT (tuned)**| bert-base-uncased | 145m 18s  | 74.42%     |
+| **BERT (tuned)**| bert-large-uncased| 1243m 28s | 83.72%     |
+| **BERT**        | bert-base-uncased | 10m 5s    | 76.74%     |
+| **BERT**        | bert-large-uncased| 28m 31s   | 74.42%     |
 
 
 ## Model Zoo 
 
 | Model Type | Models Used |
 |------------|------------|
-| **BERT**  | `bert-base-uncased` |
+| **BERT**  | `bert-base-uncased`, `bert-large-uncased` |
 | **GPT (Open-Source LLMs)** | `Llama3.1-70b`, `Llama3.3-70b`, `Gemma2-9b`, `Gemma2-27b`, `Mistral-7b`, `Llama3.2-3b`, `Llama3.1-7b` |
 
 
