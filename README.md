@@ -127,12 +127,15 @@ This project is licensed under the **MIT License** – see the [LICENSE](LICENSE
 ## Citation
 
 ```
-@article{Wang2025gptbert,
-  title     = {Comparative Analysis of BERT and GPT for Classifying Crisis News with Sudan Conflict as an Example},
-  author    = {Zifu Wang and Yahya Masri and Anusha Srirenganathan Malarvizhi and et al.},
-  journal   = {Algorithms},
-  year      = {2025},
-  doi       = {}
+@article{masri2025comparative,
+  title={Comparative Analysis of BERT and GPT for Classifying Crisis News with Sudan Conflict as an Example},
+  author={Masri, Yahya and Wang, Zifu and Srirenganathan Malarvizhi, Anusha and Ahmed, Samir and Stover, Tayven and Wong, David WS and Jiang, Yongyao and Li, Yun and Liu, Qian and Bere, Mathieu and others},
+  journal={Algorithms},
+  volume={18},
+  number={7},
+  pages={420},
+  year={2025},
+  publisher={MDPI}
 }
 ```
 
